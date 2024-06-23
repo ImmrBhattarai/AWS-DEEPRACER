@@ -1,6 +1,5 @@
-import mat
+import math
 
- 
 
 def reward_function(params):  
 
@@ -13,7 +12,6 @@ def reward_function(params):
 
     heading = params['heading']
 
- 
 
     # Initialize the reward with typical value
 
